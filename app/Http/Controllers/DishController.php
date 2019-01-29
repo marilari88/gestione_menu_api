@@ -51,7 +51,7 @@ class DishController extends Controller
     {
         $dish=Dish::findOrFail($id);
         $dish->update($request->all());
-        return $dish;
+      //  return $dish;
     }
 
     /**
