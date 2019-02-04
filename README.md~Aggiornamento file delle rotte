@@ -1,0 +1,7 @@
+# gestione_menu_API
+API rest gestione menu scritta in laravel
+
+Obiettivo di questa applicazione, scritta il laravel, è scrivere una API che costituisca il Back-end di una applicazione per la gestione di menu
+
+Verrà caricato in un altro repository l'app scritta in angular
+
