@@ -20,6 +20,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::get('dishes','DishController@index');
 Route::get('dishes/{id}','DishController@show');
+Route::put('dishes{id}','DishController@update');
 Route::post('dishes','DishController@store');
 Route::delete('dishes/{id}','DishController@destroy');
 
